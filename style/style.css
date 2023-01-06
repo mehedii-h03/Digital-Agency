@@ -67,6 +67,8 @@
     background-blend-mode: overlay;;
     color: white;
     margin-right: 20px;
+    display: flex;
+    box-sizing: border-box;
 }
 .service-btn{
     border-radius: 40px;
@@ -111,4 +113,24 @@
 .more-details-btn{
     margin-left: 25px;
     color: #f52c2c;
+}
+/* service card */
+.service-card{
+    display: flex;
+}
+.service-card1{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin: 30px;
+    color: black;
+    border-radius: 15px;
+}
+.card-img{
+    width: 50%;
+    padding: 40px 0 15px;
+}
+.service-card-top, .service-card-bottom{
+    margin-top: 20px;
 }
